@@ -1,0 +1,118 @@
+/*RESET*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0; font-family: 'Ubuntu', sans-serif;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+/*END RESET*/
+
+/*BODY*/
+body {
+    
+    background: #446440;
+    color: #FFF;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 20px;
+	font-family: Androgyne;
+	background-image: url('../img/s1.png'), url('../img/s2.png'), url('../img/s3.png');
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:1;
+	-webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+
+}
+
+/*MAIN-CONTAINER*/
+.main-container {
+    
+    width: 940px;
+    margin: 100px auto;
+}
+/*HEADER*/
+ h1{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+/*ENTREPRISE*/
+#entreprise {
+    float: right;
+    clear: left;
+    margin: 20px 0;
+}
+#entreprise adress h2 a{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+#entreprise adress h2{
+    
+/*    CONTENT*/
+} 
+.content {
+    clear: both;
+    margin: 20px 0;
+    
+}
+p.date{
+    float: right;
+    margint: 10px 150px 0 0;
+}
+
+p.objet {
+    clear: both;
+    margin: 10px 0;
+}
+.message p{
+    margin: 10px 0;
+}
+.cite blockquote{
+    display: inline;
+}
+
+/*SIGNATURE*/
+.sign {
+    float: right;
+    margin: 20px 10px 20px 0;
+}
+
+/*FOOTER*/
+footer{
+    
+    clear: both;
+    text-align: center;
+}
+footer p a{
+    text-decoration: none;
+    color: #d98989
+}
+footer img{
+    width: 500px;
+    height: 300px;
+}
